@@ -126,3 +126,10 @@
 &sata0 {
 	target-supply = <&vcc5v0_ahci>;
 };
+&usb_host0_ehci {
+    status = "disabled";
+};
+
+&usb_host0_ohci {
+    status = "disabled";
+};
